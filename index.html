@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label for="close-menu" class="close-menu-label"  title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a> </h1>
+  <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">Grid-one</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Grid Two</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us firefox 85</h2>
+                <p>To wrap up january we are pround to bring you the realease of firefox 85. In this version we are
+                    bringing
+                    you suport for the ;focus-visible pseudo-class in CSS and associated devtolol, and the complete
+                    removal
+                    of flash support from Firefox.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/javascript.svg" alt="logo java, css e html.">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 jobs</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some suprises at the machine's perfomance. This post details some background information on the
+                experience of porting firefox to run natively on theses CPUs.</p>
+            <p>we'll start with some background on the Mac transition and give an overview of firefox internals that
+                needed to know about the new architecture before moving on to the concept of universal Binaries.</p>
+            <p>We'll the explain how DRM/EME works on the new platform, talk about our experience with macOS big sur;
+                and discuss various updater problems we had to deal with. We'll conclude with the realease and an
+                overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+    <section id="grid-one" class="main-bg section grid-one">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My grid</h2>
+            <p class="grid-description">uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>top 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ad pariatur quo. Quasi, ipsum
+                        ipsa?</p>
+                </article>
+                <article>
+                    <h3>top 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sed.</p>
+                </article>
+                <article>
+                    <h3>top 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sed.</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Fotos aleartorias.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=35" alt="image radom from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=122" alt="image radom from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=23" alt="image radom from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=434" alt="image radom from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=55" alt="image radom from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=266" alt="image radom from unsplash">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="grid-two" class="main-bg section grid-one">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My grid</h2>
+            <p class="grid-description">uma breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>top 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ad pariatur quo. Quasi, ipsum
+                        ipsa?</p>
+                </article>
+                <article>
+                    <h3>top 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sed.</p>
+                </article>
+                <article>
+                    <h3>top 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, sed.</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some suprises at the machine's perfomance. This post details some background information on the
+                experience of porting firefox to run natively on theses CPUs.</p>
+            <p>we'll start with some background on the Mac transition and give an overview of firefox internals that
+                needed to know about the new architecture before moving on to the concept of universal Binaries.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>
+                        Pricing table
+                    </caption>
+                    <thead>
+                        <th>Title 1</th>
+                        <th>Title 2</th>
+                        <th>Title 3</th>
+                        <th>Titel 4</th>
+                        <th>Titel 4</th>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 4</td>
+                            <td>content 4</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 4</td>
+                            <td>content 4</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 4</td>
+                            <td>content 4</td>
+                        </tr>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                            <td>content 4</td>
+                            <td>content 4</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td>Testando</td>
+
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>talk to us</h2>
+                <p>the service is fast and easy, as soon as you send the message we will get back to you.</p>
+            </div>
+            <div class="display-img contact-img">
+                <img src="./assets/img/contact.svg" alt="contatos">
+            </div>  
+         <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact-me</legend>
+                <div class="form-group">
+                    <label for="frist-name">Frist Name:</label>
+                    <input type="text" name="frist-name" id="frist-name" placeholder="Your Name"></div>
+                    <div class="form-group">
+                    <label for="Last-name">Last Name:</label>
+                    <input type="text" name="Last-name" id="Last-name" placeholder="Your Last Name"></div>
+                    <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Your E-mail"></div>
+                   
+                    <div class="form-group full-width">
+                    <label for="message">Message</label>
+                   <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message here"></textarea>
+                </div>
+                
+                <div class="form-group full-width">
+                    <button type="submit">Send Message</button>
+                </div>
+            </fieldset>
+         </div>
+        </div>
+     
+    </section>
+<footer id="footer" class="footer white-bg">
+    <p><a rell="nofllow" target="_blank" href="http://instagram.com/wervelin">Feito com <span class="heart">&#9829; </span> por Wervelin Silva </a></p>
+   
+</footer>
+<a href="#" class="back-to-top">❯</a>
+</body>
+
+
+</html>
