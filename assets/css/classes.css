@@ -1,0 +1,47 @@
+
+.main-bg {
+    background-image: url(../img/main-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+.white-bg {
+    background-color:var(--white-color);
+    color:var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.menu-spacing{
+    height:64px;
+}
+
+body .full-width{
+    width:100%;
+    flex:1 1 100%;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom:2rem;
+    right:2rem;
+    background-color: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(270deg);
+    border: 0.1rem solid var(--primary-color);
+}
